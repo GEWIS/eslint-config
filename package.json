@@ -1,18 +1,25 @@
 {
   "name": "@gewis/eslint-config",
   "description": "ESLint configuration for GEWIS projects",
-  "main": ".eslintrc.cjs",
+  "main": "eslint.config.mjs",
   "version": "0.0.0",
   "packageManager": "yarn@4.3.1",
   "dependencies": {
+    "@eslint/js": "^9.12.0",
     "@intlify/eslint-plugin-vue-i18n": "^2.0.0",
-    "@rushstack/eslint-patch": "^1.2.0",
-    "@vue/eslint-config-prettier": "^9.0.0",
-    "@vue/eslint-config-typescript": "^12.0.0",
-    "eslint": "^8.57.1",
+    "@rushstack/eslint-patch": "^1.10.4",
+    "@types/eslint__js": "^8.42.3",
+    "@typescript-eslint/parser": "^8.10.0",
+    "@vue/eslint-config-prettier": "^10.0.0",
+    "@vue/eslint-config-typescript": "^14.1.1",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-github-commit-hash": "^1.0.3",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-vue": "^9.11.0"
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-vue": "^9.29.0",
+    "typescript-eslint": "^8.10.0"
   },
   "repository": {
     "type": "git",
